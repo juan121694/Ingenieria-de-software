@@ -62,7 +62,7 @@ public class AgregarUsuario {
     }
     
     
-    public void agegaUsuario(){
+    public void agregaUsuario(){
         Mapita u = new Mapita();
         u.setNombre(nombre);
         u.setCorreo(correo);

@@ -51,11 +51,11 @@ and open the template in the editor.
                      <h2>Regístrate </h2>
                      <p> Ingrese los datos para crear una cuenta</p>
                     <h:form>
-                        <p:inputText id="nombre" value="#{agregaUsuario.nombre}" placeholder="Nombre"/> <br/>
-                        <p:inputText id="correo" value="#{agregaUsuario.correo}" placeholder="Correo"/> <br/>
-                        <p:password id="constrasenia" value="#{agregaUsuario.contrasenia}" placeholder="Contrasenia"/> <br/>
-                        <p:calendar id="fechanacimiento" value="#{agregaUsuario.fechanacimiento}" placeholder="Fecha de nacimiento"/> <br/>
-                        <p:commandButton action="#{agregaUsuario.agregaUsuario()}" value="Registrar" ajax="false" />
+                        <p:inputText id="nombre" value="#{agregarUsuario.nombre}" placeholder="Nombre"/> <br/>
+                        <p:inputText id="correo" value="#{agregarUsuario.correo}" placeholder="Correo"/> <br/>
+                        <p:password id="constrasenia" value="#{agregarUsuario.contrasenia}" placeholder="Contrasenia"/> <br/>
+                        <p:calendar id="fechanacimiento" value="#{agregarUsuario.fechanacimiento}" placeholder="Fecha de nacimiento"/> <br/>
+                        <p:commandButton action="#{agregarUsuario.agregaUsuario()}" value="Registrar" ajax="false" />
                     </h:form>
                      
                      <h2> Actualiza Usuario</h2>
@@ -82,11 +82,11 @@ and open the template in the editor.
                      <h2>Agrega Marcador</h2>
                      <p>Ingrese los datos del marcador que desea agregar</p>
                      <h:form>
-                         <p:inputText id="descripcion" value="#{agregaMarcador.descripcion}" placeholder="Descripción"/>
-                         <p:inputNumber id="longitud" value="#{agregaMarcador.longitud}" placeholder="Longitud"/>
-                         <p:inputNumber id="latitud"  value="#{agregaMarcador.latitud}" placeholder ="Latitud" />
-                         <p:inputNumber id="usuario" value="#{agregaMarcador.usuario}" placeholder="Id Usuario"/>
-                         <p:commandButton action="#{agregaMarcador.agregarMarcador()}" placeholder="Agrega" ajax="false"/>
+                         <p:inputText id="descripcion" value="#{agregarMarcador.descripcion}" placeholder="Descripción"/>
+                         <p:inputNumber id="longitud" value="#{agregarMarcador.longitud}" placeholder="Longitud"/>
+                         <p:inputNumber id="latitud"  value="#{agregarMarcador.latitud}" placeholder ="Latitud" />
+                         <p:inputNumber id="usuario" value="#{agregarMarcador.usuario}" placeholder="Id Usuario"/>
+                         <p:commandButton action="#{agregaMarcador.agregarMarcador()}" ajax="false"/>
                      </h:form>
                      <h2>Actualiza Marcador</h2>
                      <p> Ingrese los datos del marcador que desea actualizar: </p>  
@@ -110,7 +110,7 @@ and open the template in the editor.
         
         <footer>
             <center>
-                <h3>Lechuzas </h3>
+                <h3>EQUIPO 8</h3>
             </center>
             </footer>
     </h:body>

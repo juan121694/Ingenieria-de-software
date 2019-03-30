@@ -4,9 +4,60 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 25/02/2019, 09:25:47 PM
-    Author     : juan
+    Created on : 19/02/2019, 03:14:07 PM
+    Author     : ailyn
 */
-.navbar {
-    background-color: #000000;
+body{
+    background: blue;
+}
+
+.header{
+    color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  color: white;
+  float: left;
+  width: 33%;
+}
+.row:after {
+  color: white; 
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:500px) {
+  .column {
+    width: 35%;
+  }
+}
+
+img {
+  border-radius: 8px;
+  width: 460px;
+}
+
+footer{
+    color: white;
 }
